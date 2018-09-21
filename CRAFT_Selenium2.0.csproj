@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC9B476E-D17A-4190-A575-5ADDA2280382}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRAFT</RootNamespace>
+    <AssemblyName>CRAFT_Selenium2.0</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CRAFT_Selenium2.0.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework_Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SupportLibraries\Framework_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework_DataTable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SupportLibraries\Framework_DataTable.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework_Reporting, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SupportLibraries\Framework_Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework_Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SupportLibraries\Framework_Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>SupportLibraries\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>SupportLibraries\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>SupportLibraries\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>SupportLibraries\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Core, Version=1.6.30117.9648, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.39.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SupportLibraries\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.39.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SupportLibraries\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.39.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SupportLibraries\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.39.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SupportLibraries\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Allocator\Allocator.cs" />
+    <Compile Include="Allocator\ParallelRunner.cs" />
+    <Compile Include="businesscomponents\BlogsAndComments.cs" />
+    <Compile Include="businesscomponents\CommonComponents.cs" />
+    <Compile Include="businesscomponents\Links.cs" />
+    <Compile Include="businesscomponents\MRILinks.cs" />
+    <Compile Include="businesscomponents\MyProfile.cs" />
+    <Compile Include="businesscomponents\MyDashboard.cs" />
+    <Compile Include="businesscomponents\VisitorProfile.cs" />
+    <Compile Include="businesscomponents\SiteContents.cs" />
+    <Compile Include="businesscomponents\FunctionalComponents.cs" />
+    <Compile Include="businesscomponents\HomePageSearch.cs" />
+    <Compile Include="businesscomponents\SearchFromLandingPage.cs" />
+    <Compile Include="businesscomponents\Template.cs" />
+    <Compile Include="businesscomponents\VerificationComponents.cs" />
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SupportLibraries\Asserts.cs" />
+    <Compile Include="SupportLibraries\Browser.cs" />
+    <Compile Include="SupportLibraries\PlatformFactory.cs" />
+    <Compile Include="SupportLibraries\ResultSummaryManager.cs" />
+    <Compile Include="SupportLibraries\ReusableLibrary.cs" />
+    <Compile Include="SupportLibraries\ScriptHelper.cs" />
+    <Compile Include="SupportLibraries\SeleniumReport.cs" />
+    <Compile Include="SupportLibraries\TestCase.cs" />
+    <Compile Include="SupportLibraries\TestParameters.cs" />
+    <Compile Include="SupportLibraries\DriverScript.cs" />
+    <Compile Include="SupportLibraries\TimeStamp.cs" />
+    <Compile Include="SupportLibraries\WebDriverFactory.cs" />
+    <Compile Include="TestScripts\MRI.cs" />
+    <Compile Include="TestScripts\Template.cs" />
+    <Compile Include="Uimap\BlogsAndCommentsOR.cs" />
+    <Compile Include="Uimap\LinksOR.cs" />
+    <Compile Include="Uimap\MRICommercialManagementMenuItemsOR.cs" />
+    <Compile Include="Uimap\MRIHomePageOR.cs" />
+    <Compile Include="Uimap\MRILoginPageOR.cs" />
+    <Compile Include="Uimap\MRImainMenuItemsOR.cs" />
+    <Compile Include="Uimap\MyProfileOR.cs" />
+    <Compile Include="Uimap\MyDashboardOR.cs" />
+    <Compile Include="Uimap\SearchFromLandingPageOR.cs" />
+    <Compile Include="Uimap\VisitorProfileOR.cs" />
+    <Compile Include="Uimap\SiteContentOR.cs" />
+    <Compile Include="Uimap\HomePageSearchOR.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documentation\" />
+    <Folder Include="Results\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Datatables\Common Testdata.xls" />
+    <None Include="Datatables\GI_Automation.xls" />
+    <None Include="Datatables\MRI_Automation.xls" />
+    <None Include="InitScript.bat" />
+    <None Include="Run Manager.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="businesscomponents\Note.txt" />
+    <Content Include="Framework MetaData.xml" />
+    <Content Include="SupportLibraries\Framework_Core.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SupportLibraries\Framework_DataTable.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SupportLibraries\Framework_Utilities.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AutoItX3Lib">
+      <Guid>{F8937E53-D444-4E71-9275-35B64210CC3B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

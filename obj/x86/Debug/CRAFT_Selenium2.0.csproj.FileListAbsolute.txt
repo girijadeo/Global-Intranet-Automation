@@ -1,0 +1,3 @@
+C:\Users\GDeo\Downloads\Global Intranet Automation\Global Intranet Automation\obj\x86\Debug\CRAFT_Selenium2.0.csprojResolveAssemblyReference.cache
+C:\Users\GDeo\Downloads\Global Intranet Automation\Global Intranet Automation\obj\x86\Debug\CRAFT_Selenium2.0.csproj.ResolveComReference.cache
+C:\Users\GDeo\Downloads\Global Intranet Automation\Global Intranet Automation\obj\x86\Debug\CRAFT_Selenium2.0.csproj.CoreCompileInputs.cache
